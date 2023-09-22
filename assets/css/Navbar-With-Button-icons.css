@@ -112,3 +112,27 @@
   }
 }
 
+.card {
+  border-radius: 20px;
+}
+
+@media (min-width: 1200px) {
+  .card:hover .btn {
+    background: var(--bs-blue);
+    color: var(--bs-card-bg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    color: var(--bs-card-bg)x;
+  }
+}
+
+svg {
+}
+
+.pricing-card .btn {
+  padding-left: 0px;
+}
+
