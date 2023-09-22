@@ -82,3 +82,33 @@
   }
 }
 
+.card .btn {
+  border-radius: 20px;
+  padding-left: 18px;
+  margin-left: -16px;
+  border-style: none;
+  background: var(--bs-card-cap-bg);
+}
+
+.card:hover .card-img {
+  transform: scale(1.10);
+}
+
+@media (min-width: 768px) {
+  .card .card-img {
+    transition: all ease .3s;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-content-half {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
